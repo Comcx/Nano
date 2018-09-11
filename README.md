@@ -10,7 +10,7 @@
 ### (Quick use
    - **Step 0:**  (Pre-installs: make sure you have installed JDK whose version >= 1.8)  
    - **Step 1:**  `git clone https://github.com/Comcx/Nano` or just download from web  
-   - **Step 2:**  (commandInput: `xxx$ java -jar nano.jar`)  
+   - **Step 2:**  (if (use repl) ((commandInput: `xxx$ java -jar nano.jar`) (commandInput: `xxx$ java -jar nano.jar -l <filename>`)))  
    - **Step 3:**  Enjoy it!  
    **)**  
 
