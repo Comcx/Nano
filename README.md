@@ -109,4 +109,5 @@
   
   - Church numeral can't be passed as data
   - Module problem
+  - For the pursuing of minimalism, float number is not supported
 
