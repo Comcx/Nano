@@ -73,6 +73,7 @@
 ## (> Example  
   
   ```
+  0 ; This file constructs list structure using Nano, you can build a list of (1,2,3,4,5) by typing '([] 1 2 3 4 5 0)'
   1 (:= (cons (: x (: y
   2         (: i (if (= i 0) (x y))))))
   3         
