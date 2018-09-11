@@ -15,22 +15,30 @@ Step 3: Enjoy it! )
 
 ## (> Grammar  
   
-(**Overview**  
+**(Overview**  
   
   Like Lisp, Nano use lists to express any expression. However, Nano is curry supported by default.  
   For example:    
   `(+ 1 2)`  
   will be parsed as   
   `((+ 1) 2)`  
-)  
+**)**  
 
-(**Bindings**  
+**(Bindings**  
   `(:= (<name> <value>) expression)`  
-)
+**)**
   
-(**Lambdas**  
+**(Lambdas**  
 `(: <variable> <expression>)`  
-)
+**)**  
+  
+**(Supported atomic operators**
+`(+ a b)`  
+`(- a b)`  
+`(* a b)`  
+`(/ a b)`  
+`(= a b)`  
+**)**
 
 
 
