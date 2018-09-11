@@ -36,7 +36,7 @@ Step 3: Enjoy it!
 **)**  
   
   
-**(Supported atomic operators**
+**(Supported atomic operators**  
 `(+ a b) addition`  
 `(- a b) substraction`  
 `(* a b) multiplication`  
