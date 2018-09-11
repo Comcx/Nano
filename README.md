@@ -18,7 +18,7 @@
   
 - **(Overview:**  
   
-  Like Lisp, Nano use lists to express any expression. However, Nano is curry supported by default.  
+  Like Lisp, Nano uses lists to express any expression. However, Nano is curry supported by default.  
   For example:    
   `(+ 1 2)`  
   will be parsed as   
@@ -54,7 +54,7 @@
   - ***(1. Church Numeral supported!)***   
   
     Church numeral can be used to replace loops:  
-    ***0*** &nbsp; is defined as `(:= (zero (: f (: x x))))`  
+    ***0*** &nbsp; is defined as `(:= (0 (: f (: x x))))`  
     ***+1*** is defined as `(:= (+1 (: n (: f (: x (f (n f x)))))))`  
     ***1*** &nbsp; is defined as `(+1 0)`  
     ***2*** &nbsp; is defined as `(+1 1)`  
