@@ -26,19 +26,19 @@ Step 3: Enjoy it!
 **)**<br><br>
   
   
-**(Bindings:**  
+**(:= Bindings:**  
   
   `(:= (<name> <value>) expression)`  
 **)**<br><br>
   
   
-**(Lambdas:**  
+**(: Lambdas:**  
   
 `(: <variable> <expression>)`  
 **)**<br><br>  
   
   
-**(Supported atomic operators:**  
+**((+-*/) Supported atomic operators:**  
   
 `(+ a b) addition`  
 `(- a b) substraction`  
@@ -49,7 +49,7 @@ Step 3: Enjoy it!
 **)**  <br><br>
   
   
-**(Interesting features:**  
+**(:) Interesting features:**  
   
 (1 Church Numeral supported!)  
 **)**
