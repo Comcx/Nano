@@ -26,7 +26,7 @@
 **)**<br><br>
   
   
-- (:= Bindings:  
+- **(:= Bindings:**  
   
   `(:= (<name> <value>) expression)`  
 **)**<br><br>
@@ -46,7 +46,7 @@
 `(; (' division)       (/ a b)) `  
 `(; (' equal)          (= a b))`  
 `(; (' quote)          (' symbol)`  
-**)**  <br><br>
+**)**<br><br>
   
   
 - **(:) Interesting features:**  
