@@ -51,7 +51,14 @@
   
 - **(:) Interesting features:**  
   
-  (1 Church Numeral supported!)  
+  - (1 Church Numeral supported!)  
+    Church numeral can be used to replace loops:
+    0  is defined as `(:= (zero (: f (: x x))))`  
+    +1 is defined as `(:= (+1 (: f (: n (: x (f (n f x)))))))`  
+    i is defined as (+1 0)  
+    2 is defined as (+1 1)  
+    ...  
+    n is defined as (+1 (n-1))
   **)**
 
 
