@@ -24,14 +24,17 @@ Step 3: Enjoy it!
   will be parsed as   
   `((+ 1) 2)`  
 **)**  
-
+  
+  
 **(Bindings**  
   `(:= (<name> <value>) expression)`  
 **)**
   
+  
 **(Lambdas**  
 `(: <variable> <expression>)`  
 **)**  
+  
   
 **(Supported atomic operators**
 `(+ a b) addition`  
@@ -39,10 +42,11 @@ Step 3: Enjoy it!
 `(* a b) multiplication`  
 `(/ a b) division`  
 `(= a b) equal of numbers`  
-`(' symbol) quote`
+`(' symbol) quote`  
 **)**  
   
-**(Interesting features**
+  
+**(Interesting features**  
 (1 Church Numeral supported!)  
 **)**
 
