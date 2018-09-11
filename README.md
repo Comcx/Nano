@@ -23,36 +23,36 @@
   `(+ 1 2)`  
   will be parsed as   
   `((+ 1) 2)`  
-**)**<br><br>
+  **)**<br><br>
   
   
 - **(:= Bindings:**  
   
   `(:= (<name> <value>) expression)`  
-**)**<br><br>
+  **)**<br><br>
   
   
 - **(: Lambdas:**  
   
-`(: <variable> <expression>)`  
-**)**<br><br>  
+  `(: <variable> <expression>)`  
+  **)**<br><br>  
   
   
 - **((+-*/) Supported atomic operators:**  
   
-`(; (' addition)       (+ a b))`  
-`(; (' substraction)   (- a b))`  
-`(; (' multiplication) (* a b))`  
-`(; (' division)       (/ a b)) `  
-`(; (' equal)          (= a b))`  
-`(; (' quote)          (' symbol)`  
-**)**<br><br>
+  `(; (' addition)       (+ a b))`  
+  `(; (' substraction)   (- a b))`  
+  `(; (' multiplication) (* a b))`  
+  `(; (' division)       (/ a b)) `  
+  `(; (' equal)          (= a b))`  
+  `(; (' quote)          (' symbol)`  
+  **)**<br><br>
   
   
 - **(:) Interesting features:**  
   
-(1 Church Numeral supported!)  
-**)**
+  (1 Church Numeral supported!)  
+  **)**
 
 
 
