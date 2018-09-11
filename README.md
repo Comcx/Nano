@@ -26,7 +26,7 @@
 **)**<br><br>
   
   
-**(:= Bindings:**  
+<font color=blue size=72>**(:= Bindings:**</font>  
   
   `(:= (<name> <value>) expression)`  
 **)**<br><br>
