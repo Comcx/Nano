@@ -20,7 +20,7 @@
 - **(Overview:**  
   
   You may have been used to the usual format of functional call, for instance 'f(a, b)'.   
-  However, in Nano, 'f(a, b)' is replaced by (f a b) or simply f a b  
+  However, in Nano, `f(a, b)` is replaced by `(f a b)` or simply `f a b`  
   Like Lisp, Nano uses lists to express any expression. Further more, Nano is curry supported by default.  
   For example:    
   `(+ 1 2)`  
