@@ -1,5 +1,5 @@
 # (Nano (' programming language))
-(-- "A new tiny programming language")
+(-- "A new tiny programming language which pursues minimalism")
 
       ______  ___   ____   _______
       / _  | / _ | / _  | / __   /
