@@ -12,7 +12,7 @@
    - **Step 1:**  `git clone https://github.com/Comcx/Nano`  
    - **Step 2:**  (input: `java -jar nano.jar`)  
    - **Step 3:**  Enjoy it!  
-**)**  
+   **)**  
 
 ## (> Grammar
   
