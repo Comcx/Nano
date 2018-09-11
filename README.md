@@ -40,7 +40,7 @@
   
 - **((+-*/) Supported atomic operators:**  
   
-  `(; (' addition)       (+ a b))`  
+  `(; (' addition)    &nbsp;   (+ a b))`  
   `(; (' substraction)   (- a b))`  
   `(; (' multiplication) (* a b))`  
   `(; (' division)       (/ a b)) `  
