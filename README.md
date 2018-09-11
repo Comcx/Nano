@@ -59,7 +59,10 @@
     ***1*** &nbsp; is defined as `(+1 0)`  
     ***2*** &nbsp; is defined as `(+1 1)`  
     ...  
-    ***n*** &nbsp; is defined as `(+1 (n-1))`  
+    ***n*** &nbsp; is defined as `(+1 (n-1))` 
+      
+    Therefore, for example, you can define a lambda ^ to calculate power operations:  
+    `(:= (^ (: n (: r (r (: m (* m n)) n)))) (^ 2 3))` // the expression calculates power(2, 3) which is 8  
   **)**
     
   - ***???***
