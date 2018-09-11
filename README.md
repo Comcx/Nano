@@ -56,10 +56,10 @@
     Church numeral can be used to replace loops:  
     ***0*** &nbsp; is defined as `(:= (zero (: f (: x x))))`  
     ***+1*** is defined as `(:= (+1 (: n (: f (: x (f (n f x)))))))`  
-    ***1***&nbsp; is defined as (+1 0)  
-    ***2***&nbsp; is defined as (+1 1)  
+    ***1*** &nbsp; is defined as (+1 0)  
+    ***2*** &nbsp; is defined as (+1 1)  
     ...  
-    ***n*** is defined as (+1 (n-1))  
+    ***n*** &nbsp; is defined as (+1 (n-1))  
   **)**
     
   - ***???***
