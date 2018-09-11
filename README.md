@@ -13,19 +13,21 @@ Step 1: git clone https://github.com/Comcx/Nano
 Step 2: (input: java -jar nano.jar)  
 Step 3: Enjoy it! )  
 
-## (Grammar
+## (Grammar  
+  
 (**Overview**  
-Like Lisp, Nano use lists to express any expression. However, Nano is curry supported by default.  
-For example:    
+  
+  Like Lisp, Nano use lists to express any expression. However, Nano is curry supported by default.  
+  For example:    
   `(+ 1 2)`  
-will be parsed as   
+  will be parsed as   
   `((+ 1) 2)`  
 )  
 
 (**Bindings**  
-`(:= (<name> <value>) expression)`  
+  `(:= (<name> <value>) expression)`  
 )
-
+  
 (**Lambdas**  
 `(: <variable> <expression>)`
 )
