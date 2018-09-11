@@ -40,12 +40,12 @@
   
 **((+-*/) Supported atomic operators:**  
   
-`(+ a b) addition`  
-`(- a b) substraction`  
-`(* a b) multiplication`  
-`(/ a b) division`  
-`(= a b) equal of numbers`  
-`(' symbol) quote`  
+`(; (' addition)       (+ a b))`  
+`(; (' substraction)   (- a b))`  
+`(; (' multiplication) (* a b))`  
+`(; (' division)       (/ a b)) `  
+`(; (' equal)          (= a b))`  
+`(; (' quote)          (' symbol)`  
 **)**  <br><br>
   
   
