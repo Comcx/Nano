@@ -51,7 +51,7 @@
   
 - **(:) Interesting features:**  
   
-  - ***(1 Church Numeral supported!)***   
+  - ***(1. Church Numeral supported!)***   
   
     Church numeral can be used to replace loops:  
     ***0*** &nbsp; is defined as `(:= (zero (: f (: x x))))`  
