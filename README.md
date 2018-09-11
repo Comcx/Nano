@@ -14,6 +14,20 @@ Step 2: (input: java -jar nano.jar)
 Step 3: Enjoy it! )  
 
 ## (Grammar
+###(Overview  
+Like Lisp, Nano use lists to express any expression. However, Nano is curry supported by default.  
+For example:    
+  (+ 1 2)  
+will be parsed as ((+ 1) 2)  
+)  
+
+###(Bindings  
+(:= (<name> <value>) expression)  
+)
+
+###(Lambdas  
+(: <variable> <expression>)
+)
 
 
 
