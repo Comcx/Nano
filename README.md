@@ -17,16 +17,17 @@ Step 3: Enjoy it! )
 ###(Overview  
 Like Lisp, Nano use lists to express any expression. However, Nano is curry supported by default.  
 For example:    
-  (+ 1 2)  
-will be parsed as ((+ 1) 2)  
+  `(+ 1 2)`  
+will be parsed as   
+  `((+ 1) 2)`  
 )  
 
 ###(Bindings  
-(:= (<name> <value>) expression)  
+`(:= (<name> <value>) expression)`  
 )
 
 ###(Lambdas  
-(: <variable> <expression>)
+`(: <variable> <expression>)`
 )
 
 
