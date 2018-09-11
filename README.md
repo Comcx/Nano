@@ -50,6 +50,14 @@
   `(; (' quote)          (' symbol)`  
   **)**<br><br>
   
+- **(; Complements**
+  
+  `; whatever in a line` or you can construct by:  
+  `(:= (; (: c (: e (if (' true) (e c))))))` then you can use this as:  
+  `(; <complement> <expression>)`  
+  
+  **)**
+  
   
 - **(:) Interesting features:**  
   
