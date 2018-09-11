@@ -43,7 +43,7 @@ Step 3: Enjoy it!
 `(/ a b) division`  
 `(= a b) equal of numbers`  
 `(' symbol) quote`  
-**)**  
+**)**  <br><br>
   
   
 **(Interesting features**  
