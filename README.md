@@ -26,19 +26,19 @@
 **)**<br><br>
   
   
-<font color=red>(:= Bindings:</font>  
+- (:= Bindings:  
   
   `(:= (<name> <value>) expression)`  
 **)**<br><br>
   
   
-**(: Lambdas:**  
+- **(: Lambdas:**  
   
 `(: <variable> <expression>)`  
 **)**<br><br>  
   
   
-**((+-*/) Supported atomic operators:**  
+- **((+-*/) Supported atomic operators:**  
   
 `(; (' addition)       (+ a b))`  
 `(; (' substraction)   (- a b))`  
@@ -49,7 +49,7 @@
 **)**  <br><br>
   
   
-**(:) Interesting features:**  
+- **(:) Interesting features:**  
   
 (1 Church Numeral supported!)  
 **)**
