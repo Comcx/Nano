@@ -15,7 +15,7 @@ Step 3: Enjoy it!
 **)**  
 
 ## (> Grammar  
-  
+  <br>
 **(Overview**  
   
   Like Lisp, Nano use lists to express any expression. However, Nano is curry supported by default.  
@@ -23,20 +23,23 @@ Step 3: Enjoy it!
   `(+ 1 2)`  
   will be parsed as   
   `((+ 1) 2)`  
-**)**  
+**)**<br><br>
   
   
 **(Bindings**  
+  
   `(:= (<name> <value>) expression)`  
-**)**
+**)**<br><br>
   
   
 **(Lambdas**  
+  
 `(: <variable> <expression>)`  
-**)**  
+**)**<br><br>  
   
   
 **(Supported atomic operators**  
+  
 `(+ a b) addition`  
 `(- a b) substraction`  
 `(* a b) multiplication`  
@@ -47,6 +50,7 @@ Step 3: Enjoy it!
   
   
 **(Interesting features**  
+  
 (1 Church Numeral supported!)  
 **)**
 
