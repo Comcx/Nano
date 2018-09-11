@@ -34,11 +34,16 @@ Step 3: Enjoy it!
 **)**  
   
 **(Supported atomic operators**
-`(+ a b)`  
-`(- a b)`  
-`(* a b)`  
-`(/ a b)`  
-`(= a b)`  
+`(+ a b) addition`  
+`(- a b) substraction`  
+`(* a b) multiplication`  
+`(/ a b) division`  
+`(= a b) equal of numbers`  
+`(' symbol) quote`
+**)**  
+  
+**(Interesting features**
+(1 Church Numeral supported!)  
 **)**
 
 
