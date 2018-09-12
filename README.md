@@ -82,7 +82,7 @@
     
     Meta programming gives you the ability to operate program itself as data!  
     For example, define x: `(:= (e (' (* x x))))`, you bind the expression itself to e.  
-    then, we can define lambda square as:
+    then, we can define lambda square as:  
     `(:= (square (: x (@ e))) (square 7))` which calculate the square of 7.  
     **)**
 
