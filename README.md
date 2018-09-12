@@ -1,5 +1,6 @@
 # (Nano (' programming language))
 (-- "A new tiny programming language which pursues minimalism")
+(-- latest version: Nano-0.2)
 
       ______  ___   ____   _______
       / _  | / _ | / _  | / __   /
@@ -11,7 +12,7 @@
 ### (Quick use
    - **Step 0:**  (Pre-installs: make sure you have installed JDK whose version >= 1.8)  
    - **Step 1:**  `git clone https://github.com/Comcx/Nano` or just download from web  
-   - **Step 2:**  (if (use repl) ((commandInput: `xxx$ java -jar nano.jar`) (commandInput: `xxx$ java -jar nano.jar -l <filename>`)))  
+   - **Step 2:**  (if (use repl) ((commandInput: `xxx$ java -jar nano-0.2.jar`) (commandInput: `xxx$ java -jar nano-0.2.jar -l <filename>`)))  
    - **Step 3:**  Enjoy it! (; "input ':q' to quit repl")  
    **)**  
 
