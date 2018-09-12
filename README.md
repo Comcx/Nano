@@ -50,6 +50,7 @@
   `(; (' division)       (/ a b)) `  
   `(; (' equal)          (= a b))`  
   `(; (' quote)          (' symbol)`  
+  `(; (' eval)           (@ <expression>))`  
   **)**<br><br>
   
 - **(; Complements**
@@ -77,7 +78,12 @@
     `(:= (^ (: n (: r ((- r 1) (: m (* m n)) n)))) (^ 2 3))` // the expression calculates power(2, 3) which is 8  
   **)**
     
-  - ***???***
+  - ***Meta programming supported!***
+    
+    Meta programming gives you the ability to operate program itself as data!  
+    For example, define x: `(:= (e (' (* x x))))`, you bind the expression itself to e.  
+    then, we can define lambda square as:
+    `(:= (square (: x (@ e))) (square 7))` which calculate the square of 7.  
 
 
 ## (> Example  
