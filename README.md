@@ -64,7 +64,7 @@
   
 - **(:) Interesting features:**  
   
-  - ***(1. Church Numeral supported!)***   
+  - ***(1. Church Numeral supported!***   
   
     Church numeral can be used to replace loops:  
     ***0*** &nbsp; is defined as `(:= (0 (: f (: x x))))`  
@@ -78,12 +78,13 @@
     `(:= (^ (: n (: r ((- r 1) (: m (* m n)) n)))) (^ 2 3))` // the expression calculates power(2, 3) which is 8  
   **)**
     
-  - ***Meta programming supported!***
+  - ***(2. Meta programming supported!***
     
     Meta programming gives you the ability to operate program itself as data!  
     For example, define x: `(:= (e (' (* x x))))`, you bind the expression itself to e.  
     then, we can define lambda square as:
     `(:= (square (: x (@ e))) (square 7))` which calculate the square of 7.  
+    **)**
 
 
 ## (> Example  
