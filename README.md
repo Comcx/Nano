@@ -14,7 +14,8 @@
    - **Step 1:**  `git clone https://github.com/Comcx/Nano` or just download from web  
    - **Step 2:**  (if (use repl) ((commandInput: `xxx$ java -jar nano-0.2.jar`) (commandInput: `xxx$ java -jar nano-0.2.jar -l <filename>`)))  
    - **Step 3:**  Enjoy it! (; "input ':q' to quit repl")  
-     ![usage](https://github.com/Comcx/Nano/blob/master/usage.JPG)
+     <img width="150" height="150" src="https://github.com/Comcx/Nano/blob/master/usage.JPG"/>
+  
    **)**  
 
 ## (> Grammar
