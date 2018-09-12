@@ -30,6 +30,9 @@
   `(+ 1 2)`  
   will be parsed as   
   `((+ 1) 2)`  
+    
+  However, we have created a new format to express `(a (b c))` with less parentheses,  
+  see ./codes/use_less_parentheses.no for detail.  
   **)**<br><br>
   
   
