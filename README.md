@@ -49,7 +49,7 @@
   
 - **(if Condition**
     
-  `(if <predication> (<expression> <expression>)`  
+  `(if <predication> (<expression> <expression>))`  
   **)**
   
 - **((+-*/) Supported atomic operators:**  
