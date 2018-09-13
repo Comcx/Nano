@@ -59,8 +59,8 @@
   `(; (' multiplication) (* a b))`  
   `(; (' division)       (/ a b)) `  
   `(; (' equal)          (= a b))`  
-  `(; (' quote)          (' symbol)`  
-  `(; (' eval)           (@ <expression>))`  
+  `(; (' quote)          (' <expression>)`  
+  `(; (' eval)           (@ <expression>)`  
   **)**<br><br>
   
 - **(; Complements**
