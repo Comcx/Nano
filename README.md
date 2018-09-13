@@ -61,7 +61,7 @@
   `(; (' equal)          (= a b))`  
   `(; (' list)           (:: a b))`  
   `(; (' selector)       (0: <list>))`  
-  `(; (' selector)       (1: <list>))`
+  `(; (' selector)       (1: <list>))`  
   `(; (' quote)          (' <expression>)`  
   `(; (' eval)           (@ <expression>)`  
   **)**<br><br>
