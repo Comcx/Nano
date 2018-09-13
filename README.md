@@ -47,7 +47,7 @@
   `(: <variable> <expression>)`  
   **)**<br><br>  
   
-- **(if Condition**
+- **(if Conditions:**
     
   `(if <predication> (<expression> <expression>))`  
   **)**
