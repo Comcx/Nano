@@ -12,7 +12,7 @@
 ### (Quick use
    - **Step 0:**  (Pre-installs: make sure you have installed JDK whose version >= 1.8)  
    - **Step 1:**  `git clone https://github.com/Comcx/Nano` or just download from web  
-   - **Step 2:**  (if (use repl) ((commandInput: `xxx$ java -jar nano-0.2.jar`) (commandInput: `xxx$ java -jar nano-0.2.jar -l <filename>`)))  
+   - **Step 2:**  (if (use repl) ((commandInput: `xxx$ java -jar nano-0.3.jar`) (commandInput: `xxx$ java -jar nano-0.3.jar -l <filename>`)))  
    - **Step 3:**  Enjoy it! (; "input ':q' to quit repl")  
        
      <img width="540" height="300" src="https://github.com/Comcx/Nano/blob/master/usage.JPG"/>
