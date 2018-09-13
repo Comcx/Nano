@@ -47,6 +47,10 @@
   `(: <variable> <expression>)`  
   **)**<br><br>  
   
+-**(if Condition**
+    
+  `(if <predication> (<expression> <expression>)`  
+  **)**
   
 - **((+-*/) Supported atomic operators:**  
   
