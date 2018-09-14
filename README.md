@@ -101,6 +101,10 @@
     Further more, you may have noticed the operatoer :: mentioned above, the expression `:: a b`  
     just return a new expression `(a, b)` as `(+ a b)`, it is an expression which belongs to Nano itself.  
     **)**
+    
+  - ***(3. Closure supported!***  
+    
+  **)**
 
 
 ## (> Example  
