@@ -5,15 +5,15 @@
 (:= (cdr (: z (z 1)))
 
 (:= (list (: self (: x (: y
-        (if (= y 0) ((cons y x)
+        (if (= y (' ])) ((cons y x)
                 (self self (cons y x))))))))
  
 (:= ([] (list list))
- 
+(:= (] (' ]))
 (:= (.first 0)
 (:= (.second 1)
 
 
- (([] 1 2 3 4 0) .second .second .first)
+ (([ 1 2 3 4 ]) .second .second .first)
  
-)))))))
+))))))))
