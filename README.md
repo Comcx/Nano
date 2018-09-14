@@ -106,7 +106,7 @@
 ## (> Example  
   
   ```
-  0 ; This file constructs list structure using Nano, you can build a list of (1,2,3,4,5) by typing '([] 1 2 3 4 5 0)'
+  0 ; This file constructs list structure using Nano, you can build a list of (1,2,3,4,5) by typing '([ 1 2 3 4 5 ])'
   1 (:= (cons (: x (: y
   2         (: i (if (= i 0) (x y))))))
   3         
@@ -114,16 +114,16 @@
   5 (:= (cdr (: z (z 1)))
   6 
   7 (:= (list (: self (: x (: y
-  8         (if (= y 0) ((cons y x)
+  8         (if (= y (' ])) ((cons y x)
   9                 (self self (cons y x))))))))
  10                 
- 11 (:= ([] (list list))
- 12  
+ 11 (:= ([ (list list))
+ 12 (:= (] (' ])) 
  13 (:= (.first 0)
  14 (:= (.second 1)
  15 
  16 
- 17  (([] 1 2 3 4 0) .second .second .first)
+ 17  (([ 1 2 3 4 ]) .second .second .first)
  18 
  19 )))))))
 ```
