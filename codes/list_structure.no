@@ -5,7 +5,7 @@
 (:= (cdr (: z (z 1)))
 
 (:= (list (: self (: x (: y
-        (if (= y (' ])) ((cons y x)
+        (if (= y (' ])) (x
                 (self self (cons y x))))))))
  
 (:= ([] (list list))
