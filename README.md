@@ -115,7 +115,7 @@
     ***n*** &nbsp; is defined as `(+1 (n-1))` 
       
     Therefore, for example, you can define a lambda ^ to calculate power operations:  
-    `(:= (^ (: n (: r ((- r 1) (: m (* m n)) n)))) (^ 2 3))` // the expression calculates power(2, 3) which is 8  
+    `(:= (^ (: n (: r (r (: m (* m n)) 1)))) (^ 2 3))` // the expression calculates power(2, 3) which is 8  
   **)**
     
   - ***(2. Meta programming supported!***
