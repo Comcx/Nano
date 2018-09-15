@@ -72,6 +72,14 @@
   `(:= (; (: c (: e (if (' true) (e c))))))` then you can use this as:  
   `(; <complement> <expression>)`  
   
+  **)**  
+  
+- **(! Supported features**  
+    
+    - ***(1. Lexical scoping***  
+      We choose lexical scoping instead of dynamic scoping.  
+      
+    
   **)**
   
   
