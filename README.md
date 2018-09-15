@@ -79,6 +79,11 @@
     - ***(1. Lexical scoping***  
       We choose lexical scoping instead of dynamic scoping.  
         
+      ***)***  
+        
+    - ***(2. Carbage Collection***  
+      Since we write Nano using Scala on jvm, Nano support garbage collection automatically  
+      
       ***)***
       
     
