@@ -63,8 +63,8 @@
   `(; (' selector)       (0: <list>))`  
   `(; (' selector)       (1: <list>))`  
   `(; (' quote)          (' <expression>))`  
-  ``(; (' eval)           (` <expression>))`` 
-  `(; (' import)         (@ <file>))`  
+  ``(; (' eval)           (` <expression>))``  
+  `(; (' import)         (@ <file>))`   
   **)**<br><br>
   
 - **(; Complements:**
