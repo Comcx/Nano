@@ -66,7 +66,7 @@
   `(; (' eval)           (@ <expression>)`  
   **)**<br><br>
   
-- **(; Complements**
+- **(; Complements:**
   
   `; whatever in a line` or you can construct by:  
   `(:= (; (: c (: e (if (' true) (e c))))))` then you can use this as:  
@@ -74,7 +74,7 @@
   
   **)**  <br><br>
   
-- **(! Supported features**  
+- **(! Supported features:**  
     
     - ***(1. Lexical scoping***  
       We choose lexical scoping instead of dynamic scoping.  
