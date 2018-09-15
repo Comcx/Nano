@@ -63,7 +63,7 @@
   `(; (' selector)       (0: <list>))`  
   `(; (' selector)       (1: <list>))`  
   `(; (' quote)          (' <expression>))`  
-  `(; (' eval)           ( <expression>))` 
+  ``(; (' eval)           (` <expression>))`` 
   `(; (' import)         (@ <file>))`  
   **)**<br><br>
   
@@ -112,7 +112,7 @@
     Meta programming gives you the ability to operate program itself as data!  
     For example, define e: `(:= (e (' (* x x))))`, you bind the expression itself to e.  
     then, we can define lambda square as:  
-    `(:= (square (: x ( e))) (square 7))` which calculate the square of 7.  
+    ``(:= (square (: x (` e))) (square 7))`` which calculate the square of 7.  
     
     Further more, you may have noticed the operatoer :: mentioned above, the expression `:: a b`  
     just return a new expression `(a, b)` as `(+ a b)`, it is an expression which belongs to Nano itself.  
