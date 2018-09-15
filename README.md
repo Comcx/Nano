@@ -78,6 +78,8 @@
     
     - ***(1. Lexical scoping***  
       We choose lexical scoping instead of dynamic scoping.  
+        
+      ***)***
       
     
   **)**
