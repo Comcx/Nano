@@ -18,6 +18,17 @@
      <img width="540" height="300" src="https://github.com/Comcx/Nano/blob/master/usage.JPG"/>
   
    **)**  
+     
+### (REPL use  
+  
+  - **Global environment:**  
+    You can type in `def <variable> <expression>` to add variable to global environment  
+    
+  - **Commands:**  
+    `:q` to quit repl  
+    `:?` to ask for help  
+    ...  
+  **)**  
 
 ## (> Grammar
   
