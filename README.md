@@ -28,7 +28,7 @@
     `:q` to quit repl  
     `:?` to ask for help  
     ...  
-  **)**  
+**)**  
 
 ## (> Grammar
   
