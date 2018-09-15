@@ -82,7 +82,7 @@
       ***)***  
         
     - ***(2. Carbage Collection***  
-      Since we write Nano using Scala on jvm, Nano support garbage collection automatically  
+      Since we write Nano using Scala on jvm, Nano supports garbage collection automatically  
       
       ***)***
       
