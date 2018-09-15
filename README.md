@@ -72,7 +72,7 @@
   `(:= (; (: c (: e (if (' true) (e c))))))` then you can use this as:  
   `(; <complement> <expression>)`  
   
-  **)**  
+  **)**  <br><br>
   
 - **(! Supported features**  
     
