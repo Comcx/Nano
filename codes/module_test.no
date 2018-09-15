@@ -9,7 +9,7 @@
         (:D (: exp (:: (:: (' :=) (:: v e)) exp))))))
 
 
-(:= (number (` (@ scope.no)))
+(:= (number (` (@ (' scope.no))))
 
 
  (` (number . 
