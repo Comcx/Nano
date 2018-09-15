@@ -1,6 +1,6 @@
 # (Nano (:: Programming Language))
 (-- "A new tiny programming language which pursues minimalism")
-(-- latest version: Nano-0.4)
+(-- latest version: Nano-0.5)
 
       ______  ___   ____   _______
       / _  | / _ | / _  | / __   /
@@ -12,7 +12,7 @@
 ### (Quick use
    - **Step 0:**  (Pre-installs: make sure you have installed JDK whose version >= 1.8)  
    - **Step 1:**  `git clone https://github.com/Comcx/Nano` or just download from web  
-   - **Step 2:**  (if (use repl) ((commandInput: `xxx$ java -jar nano-0.4.jar`) (commandInput: `xxx$ java -jar nano-0.4.jar -l <filename>`)))  
+   - **Step 2:**  (if (use repl) ((commandInput: `xxx$ java -jar nano-0.5.jar`) (commandInput: `xxx$ java -jar nano-0.5.jar -l <filename>`)))  
    - **Step 3:**  Enjoy it! (; "input ':q' to quit repl")  
        
      <img width="540" height="300" src="https://github.com/Comcx/Nano/blob/master/usage.JPG"/>
@@ -62,8 +62,9 @@
   `(; (' list)           (:: a b))`  
   `(; (' selector)       (0: <list>))`  
   `(; (' selector)       (1: <list>))`  
-  `(; (' quote)          (' <expression>)`  
-  `(; (' eval)           (@ <expression>)`  
+  `(; (' quote)          (' <expression>))`  
+  `(; (' eval)           (` <expression>)）`  
+  `(; (' import)         (@ <file>))`  
   **)**<br><br>
   
 - **(; Complements:**
@@ -111,7 +112,7 @@
     Meta programming gives you the ability to operate program itself as data!  
     For example, define e: `(:= (e (' (* x x))))`, you bind the expression itself to e.  
     then, we can define lambda square as:  
-    `(:= (square (: x (@ e))) (square 7))` which calculate the square of 7.  
+    `(:= (square (: x (` e))) (square 7))` which calculate the square of 7.  
     
     Further more, you may have noticed the operatoer :: mentioned above, the expression `:: a b`  
     just return a new expression `(a, b)` as `(+ a b)`, it is an expression which belongs to Nano itself.  
