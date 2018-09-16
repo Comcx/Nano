@@ -27,6 +27,7 @@
   - **Commands:**  
     `:q` to quit repl  
     `:?` to ask for help  
+    `:load` to load defs  
     ...  
 **)**  
 
