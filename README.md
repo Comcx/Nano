@@ -141,7 +141,7 @@
       - Module file syntax:
       `(let (' <var>) (' <expression>))`  
       - Usage:  
-      First, you should use magical expressions(see `./codes/use_less_parentheses.no`)  
+      First, you should use magical expressions(see `./codes/bindings_with_less_parentheses.no`)  
       import module like this:  
       ``(:= <module name> (` (@ (' <file name>))))``  
       For convenience, let's say `<module name>` is `foo` then  
@@ -150,6 +150,7 @@
         
       Here's one example:  
       ```
+      ; magical expressions
       (:= (:D (: f (: bind (bind f))))
       (:= (. (: f f))
       (:= ($ (: f (: g
@@ -157,12 +158,13 @@
 
       (:= (let (: v (: e  
            (:D (: exp (:: (:: (' :=) (:: v e)) exp))))))
-
+      
+      ; import lib_list.no
       (:= (import (: s (` (@ s))))
 
       (:= (number (import (' lib_list.no)))
 
-
+        ; use the module
         (` (number . 
              (' (head ([ 1 2 3 4 5 ])))
         ))
