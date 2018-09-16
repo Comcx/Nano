@@ -79,6 +79,14 @@
   `(; (' import)         (@ <file>))`   
   **)**<br><br>
   
+  
+- **(< Extra operators:**
+    
+  `(; (' compare) (< a b))`  
+  `(; (' print)   (print <expression>))`  
+  
+  **)**<br><br>
+  
 - **(; Complements:**
   
   `; whatever in a line` or you can construct by:  
