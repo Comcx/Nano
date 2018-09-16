@@ -1,0 +1,28 @@
+
+(let (' true) (' (' true))) $
+(let (' false) (' (' false))) $
+(let (' not) (' (: x (if (= x true) (false true))))) $
+(let (' and) (' (: x (: y 
+    (if (= x true) ((if (= y true) (true false)) 
+                    false)))))) $
+(let (' or) (' (: x (: y
+    (if (= x true) (true
+        (if (= y true) (true false)))))))) $
+(let (' xor) (' (: x (: y
+    (and (or x y) (not (and x y)))))))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
