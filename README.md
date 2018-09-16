@@ -133,6 +133,23 @@
       
     ***)***  
       
+      
+  - ***(4. Module constructed!***  
+      
+      First of all, Nano don't offer module system directly for the reason that we can build it ourselves.  
+      There may be hundreds of solutions, but I just list one of them and I have used it to build libraies:  
+      - Module file syntax:
+      `(let (' <var>) (' <expression>))`  
+      - Usage:  
+      First, you should use magical expressions(see `./codes/use_less_parentheses.no`)  
+      import module like this:  
+      ``(:= <module name> (` (@ (' <file name>))))``  
+      For convenience, let's say `<module name>` is `foo` then  
+      you can write:  
+      `(` (foo . (' <expression>)))` where you can use everything inside the module.  
+      
+    ***)***  
+      
   **)**
 
 
