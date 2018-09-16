@@ -147,6 +147,29 @@
       For convenience, let's say `<module name>` is `foo` then  
       you can write:  
       ``(` (foo . (' <expression>)))`` where you can use everything inside the module.  
+        
+      Here's one example:  
+      ```
+      (:= (:D (: f (: bind (bind f))))
+      (:= (. (: f f))
+      (:= ($ (: f (: g
+           (:D (: x (f (g . x)))))))
+
+      (:= (let (: v (: e  
+           (:D (: exp (:: (:: (' :=) (:: v e)) exp))))))
+
+      (:= (import (: s (` (@ s))))
+
+      (:= (number (import (' lib_list.no)))
+
+
+        (` (number . 
+             (' (head ([ 1 2 3 4 5 ])))
+        ))
+
+
+      ))))))
+      ```
       
     ***)***  
       
