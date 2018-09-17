@@ -1,0 +1,41 @@
+
+
+(:= (:D (: f (: bind (bind f))))
+(:= (. (: f f))
+(:= ($ (: f (: g
+        (:D (: x (f (g . x)))))))
+
+(:= (let (: v (: e  
+        (:D (: exp (:: (:: (' :=) (:: v e)) exp))))))
+
+(:= (include (: s (` (@ s))))
+
+
+
+(:= (list (include (' lib_list.no)))
+(:= (math (include (' lib_math.no)))
+(:= (bool (include (' lib_bool.no)))
+(:= (test (include (' lib_test.no))) 
+
+ (` (math $ list .
+     ;(' (foldr ([ 1 2 3 4 5 ]) 1 (: a (: x (* a x)))))
+     ;(' (# ([ 1 2 3 4 5 ])))
+     ;(' (^ 2 (# ([ 1 2 3 4 ]))))
+     ;(' (not true))
+     ;(' (xor (= 1 2) (= 3 2)))
+     (' (lcm 625 3))
+ ))
+; number
+
+
+)))))))))
+
+
+
+
+
+
+
+
+
+
