@@ -8,13 +8,13 @@
 (:= (let (: v (: e  
         (:D (: exp (:: (:: (' :=) (:: v e)) exp))))))
 
-(:= (import (: s (` (@ s))))
+(:= (include (: s (` (@ s))))
 
 
 
-(:= (number (import (' lib_list.no)))
-(:= (math (import (' lib_math.no)))
-(:= (bool (import (' lib_bool.no)))
+(:= (number (include (' lib_list.no)))
+(:= (math (include (' lib_math.no)))
+(:= (bool (include (' lib_bool.no)))
 
  (` (number $ math $ bool .
      ;(' (foldr ([ 1 2 3 4 5 ]) 1 (: a (: x (* a x)))))
