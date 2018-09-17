@@ -172,10 +172,10 @@
       ; import lib_list.no
       (:= (import (: s (` (@ s))))
 
-      (:= (number (import (' lib_list.no)))
+      (:= (foo_module (import (' lib_list.no)))
 
         ; use the module
-        (` (number . 
+        (` (foo_module . 
              (' (head ([ 1 2 3 4 5 ])))
         ))
 
