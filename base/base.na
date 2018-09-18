@@ -2,7 +2,7 @@
 
 def :D (: f (: bind (bind f)))
 def -> (: f f)
-def $ (: f (: g (:D (: x (f (g . x))))))
+def $ (: f (: g (:D (: x (f (g -> x))))))
 def let (: v (: e (:D (: exp (:: (:: (' :=) (:: v e)) exp)))))
 def include (: s (` (@ s)))
 
