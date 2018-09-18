@@ -1,0 +1,28 @@
+
+(:= (include (: s (` (@ s))))
+
+(:= (list (include (' lib_list.no)))
+(:= (math (include (' lib_math.no)))
+
+  (list $ math $
+  (let (' unit) (' (: f f))) $
+  (let (' ~) (' (: z (foldr z unit (: a (: f (: x (f (a x)))))))))
+
+
+
+
+  )
+
+)))
+
+
+
+
+
+
+
+
+
+
+
+
