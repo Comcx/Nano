@@ -162,9 +162,9 @@
       ```
       ; magical expressions
       (:= (:D (: f (: bind (bind f))))
-      (:= (. (: f f))
+      (:= (-> (: f f))
       (:= ($ (: f (: g
-           (:D (: x (f (g . x)))))))
+           (:D (: x (f (g -> x)))))))
 
       (:= (let (: v (: e  
            (:D (: exp (:: (:: (' :=) (:: v e)) exp))))))
@@ -175,7 +175,7 @@
       (:= (foo_module (import (' lib_list.no)))
 
         ; use the module
-        (` (foo_module . 
+        (` (foo_module -> 
              (' (head ([ 1 2 3 4 5 ])))
         ))
 
