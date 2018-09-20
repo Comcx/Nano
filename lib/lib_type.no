@@ -4,7 +4,7 @@
 (let (' type:) (' (: to (0: to)))) $
 (let (' value:) (' (: to (1: to)))) $
 (let (' is-type) (' (: t (: to (= t (type: to)))))) $
-(let (' map) (' (: to (: f (+type (type: to) (f (value: to))))))) $
+(let (' map-value) (' (: to (: f (+type (type: to) (f (value: to))))))) $
 
 (let (' Number) (' (: o (+type (' Number) o)))) $
 (let (' List) (' (: o (+type (' List) o))))
