@@ -1,0 +1,30 @@
+
+(:= (include (: s (` (@ s))))
+
+(:= (cate (include (' lib_cat.no)))
+(:= (type (include (' lib_type.no)))
+
+
+(cate $ type $
+(let (' infix-exp) (' (: e (:= (part (0: e)) 
+    (:: (:: (1: part) (0: part)) (1: e)))))) $
+(let (' infix) (' (: e (` (infix-exp e)))))
+
+
+
+
+
+)
+
+)))
+
+
+
+
+
+
+
+
+
+
+
