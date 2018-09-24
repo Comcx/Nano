@@ -97,7 +97,7 @@
   
   **)**  <br><br>
   
-- **(; Complements:**
+- **(" Strings:**
 
   `"<str content>"` which is just syntax sugar of list  
 
