@@ -72,6 +72,7 @@
   `(; (' multiplication) (* a b))`  
   `(; (' division)       (/ a b))`   
   `(; (' equal)          (= a b))`  
+  `(; (' atomic)         (atom x))`  
   `(; (' list)           (:: a b))`   
   `(; (' selector)       (0: <list>))`  
   `(; (' selector)       (1: <list>))`  
