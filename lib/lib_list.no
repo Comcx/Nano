@@ -6,7 +6,7 @@
 
 
 (bool $
-(let (' nil) (' (' nil))) $
+(let (' nil) (' ())) $
 (let (' list) (' (: self (: x (: y
     (if (= y nil) (x
         (self self (:: x y))))))))) $
