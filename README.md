@@ -165,7 +165,7 @@
       ``(:= <module name> (` (@ (read-file <file name>))))``  
       For convenience, let's say `<module name>` is `foo` then  
       you can write:  
-      ``(` (foo . (' <expression>)))`` where you can use everything inside the module.  
+      ``(` (foo -> (' <expression>)))`` where you can use everything inside the module.  
         
       Here's one example:  
       ```
