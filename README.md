@@ -78,7 +78,7 @@
   `(; (' selector)       (1: <list>))`  
   `(; (' quote)          (' <expression>))`  
   ``(; (' eval)           (` <expression>))``  
-  `(; (' read)         (@ <file>))`   
+  `(; (' read)         (@ <str>))`   
   **)**<br><br>
   
   
