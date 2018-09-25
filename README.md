@@ -1,6 +1,6 @@
 # (Nano (:: Programming Language))
 (-- "A new tiny programming language which pursues minimalism")
-(-- latest version: Nano-0.7)
+(-- latest version: Nano-0.7x)
 
       ______  ___   ____   _______
       / _  | / _ | / _  | / __   /
@@ -12,7 +12,7 @@
 ### (Quick use
    - **Step 0:**  (Pre-installs: make sure you have installed JDK whose version >= 1.8)  
    - **Step 1:**  `git clone https://github.com/Comcx/Nano` or just download from web  
-   - **Step 2:**  (if (use repl) ((commandInput: `xxx$ java -jar nano-0.7.jar`) (commandInput: `xxx$ java -jar nano-0.7.jar -l <filename>`)))  
+   - **Step 2:**  (if (use repl) ((commandInput: `xxx$ java -jar nano-0.7x.jar`) (commandInput: `xxx$ java -jar nano-0.7x.jar -l <filename>`)))  
    - **Step 3:**  Enjoy it! (; "input ':q' to quit repl")  
        
      <img width="540" height="300" src="https://github.com/Comcx/Nano/blob/master/usage.JPG"/>
@@ -78,14 +78,16 @@
   `(; (' selector)       (1: <list>))`  
   `(; (' quote)          (' <expression>))`  
   ``(; (' eval)           (` <expression>))``  
-  `(; (' import)         (@ <file>))`   
+  `(; (' read)         (@ <file>))`   
   **)**<br><br>
   
   
 - **(< Extra operators:**
     
-  `(; (' compare) (< a b))`  
-  `(; (' print)   (print <expression>))`  
+  `(; (' compare)    (< a b))`  
+  `(; (' print)      (print <expression>))`  
+  `(; (' read-file)  (read-file <url>))`  
+  `(; (' write-file) (write-file <url>))`  
   
   **)**<br><br>
   
@@ -160,7 +162,7 @@
       - Usage:  
       First, you should use magical expressions(see `./codes/bindings_with_less_parentheses.no`)  
       import module like this:  
-      ``(:= <module name> (` (@ (' <file name>))))``  
+      ``(:= <module name> (` (@ (read-file <file name>))))``  
       For convenience, let's say `<module name>` is `foo` then  
       you can write:  
       ``(` (foo . (' <expression>)))`` where you can use everything inside the module.  
@@ -177,9 +179,9 @@
            (:D (: exp (:: (:: (' :=) (:: v e)) exp))))))
       
       ; import lib_list.no
-      (:= (import (: s (` (@ s))))
+      (:= (import (: s (` (@ (read-file s)))))
 
-      (:= (foo_module (import (' lib_list.no)))
+      (:= (foo_module (import "lib_list.no"))
 
         ; use the module
         (` (foo_module -> 
