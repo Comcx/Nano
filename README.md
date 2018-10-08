@@ -55,14 +55,14 @@
   **)**<br><br>
   
   
-- **(: Lambdas:**  
+- **(\ Lambdas:**  
   
-  `(: <variable> <expression>)`  
+  `(\ <variable> <expression>)`  
   **)**<br><br>  
   
 - **(if Conditions:**
     
-  `(if <predication> (<expression> <expression>))`  
+  `(if <predication> <expression> <expression>)`  
   **)**
   
 - **((+-*/) Supported atomic operators:**  
@@ -94,7 +94,7 @@
 - **(; Complements:**
   
   `; whatever in a line` or you can construct by:  
-  `(:= (; (: c (: e (if (' true) (e c))))))` then you can use this as:  
+  `(:= (; (: c (: e (if true e c)))))` then you can use this as:  
   `(; <complement> <expression>)`  
   
   **)**  <br><br>
