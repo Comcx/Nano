@@ -54,6 +54,17 @@
   `(:= (<name> <value>) expression)`  
   **)**<br><br>
   
+  - **(: Type declarations:**  
+  
+  `(: <name> expression)`  
+  **)**<br><br>
+  
+- **(def Definitions:**  
+  
+  `(def <name> expression)`  
+  **)**<br><br>
+  
+  
   
 - **(\ Lambdas:**  
   
