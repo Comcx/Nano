@@ -49,9 +49,9 @@
   **)**<br><br>
   
   
-- **(:= Bindings:**  
+- **(= Bindings:**  
   
-  `(:= (<name> <value>) expression)`  
+  `(= (<name> <value>) expression)`  
   **)**<br><br>
   
 - **(: Type declarations:**  
@@ -145,15 +145,15 @@
     ***n*** &nbsp; is defined as `(+1 (n-1))` 
       
     Therefore, for example, you can define a lambda ^ to calculate power operations:  
-    `(:= (^ (: n (: r (r (: m (* m n)) 1)))) (^ 2 3))` // the expression calculates power(2, 3) which is 8  
+    `(= (^ (: n (: r (r (: m (* m n)) 1)))) (^ 2 3))` // the expression calculates power(2, 3) which is 8  
   **)**
     
   - ***(2. Meta programming supported!***
     
     Meta programming gives you the ability to operate program itself as data!  
-    For example, define e: `(:= (e (' (* x x))))`, you bind the expression itself to e.  
+    For example, define e: `(def (e (' (* x x))))`, you bind the expression itself to e.  
     then, we can define lambda square as:  
-    ``(:= (square (: x (` e))) (square 7))`` which calculate the square of 7.  
+    ``(= (square (: x (` e))) (square 7))`` which calculate the square of 7.  
     
     Further more, you may have noticed the operatoer :: mentioned above, the expression `:: a b`  
     just return a new expression `(a, b)` as `(+ a b)`, it is an expression which belongs to Nano itself.  
@@ -181,18 +181,18 @@
       Here's one example:  
       ```
       ; magical expressions
-      (:= (:D (: f (: bind (bind f))))
-      (:= (-> (: f f))
-      (:= ($ (: f (: g
+      (= (:D (: f (: bind (bind f))))
+      (= (-> (: f f))
+      (= ($ (: f (: g
            (:D (: x (f (g -> x)))))))
 
-      (:= (let (: v (: e  
+      (= (let (: v (: e  
            (:D (: exp (:: (:: (' :=) (:: v e)) exp))))))
       
       ; import lib_list.no
-      (:= (import (: s (` (@ (read-file s)))))
+      (= (import (: s (` (@ (read-file s)))))
 
-      (:= (foo_module (import "lib_list.no"))
+      (= (foo_module (import "lib_list.no"))
 
         ; use the module
         (` (foo_module -> 
@@ -212,20 +212,20 @@
   
   ```
   0 ; This file constructs list structure using Nano, you can build a list of (1,2,3,4,5) by typing '([ 1 2 3 4 5 ])'
-  1 (:= (cons (: x (: y
+  1 (= (cons (: x (: y
   2         (: i (if (= i 0) (x y))))))
   3         
-  4 (:= (car (: z (z 0)))
-  5 (:= (cdr (: z (z 1)))
+  4 (= (car (: z (z 0)))
+  5 (= (cdr (: z (z 1)))
   6 
-  7 (:= (list (: self (: x (: y
+  7 (= (list (: self (: x (: y
   8         (if (= y (' ])) (x
   9                 (self self (cons y x))))))))
  10                 
- 11 (:= ([ (list list))
- 12 (:= (] (' ])) 
- 13 (:= (.first 0)
- 14 (:= (.second 1)
+ 11 (= ([ (list list))
+ 12 (= (] (' ])) 
+ 13 (= (.first 0)
+ 14 (= (.second 1)
  15 
  16 
  17  (([ 1 2 3 4 ]) .second .second .first)
