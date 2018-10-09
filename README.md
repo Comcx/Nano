@@ -105,7 +105,7 @@
 - **(; Complements:**
   
   `; whatever in a line` or you can construct by:  
-  `(:= (; (: c (: e (if true e c)))))` then you can use this as:  
+  `(def (; (: c (: e (if true e c)))))` then you can use this as:  
   `(; <complement> <expression>)`  
   
   **)**  <br><br>
@@ -137,8 +137,8 @@
   - ***(1. Church Numeral supported!***   
   
     Church numeral can be used to replace loops:  
-    ***0*** &nbsp; is defined as `(:= (0 (: f (: x x))))`  
-    ***+1*** is defined as `(:= (+1 (: n (: f (: x (f (n f x)))))))`  
+    ***0*** &nbsp; is defined as `(def (0 (: f (: x x))))`  
+    ***+1*** is defined as `(def (+1 (: n (: f (: x (f (n f x)))))))`  
     ***1*** &nbsp; is defined as `(+1 0)`  
     ***2*** &nbsp; is defined as `(+1 1)`  
     ...  
