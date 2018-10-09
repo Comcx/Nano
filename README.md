@@ -54,7 +54,7 @@
   `(:= (<name> <value>) expression)`  
   **)**<br><br>
   
-  - **(: Type declarations:**  
+- **(: Type declarations:**  
   
   `(: <name> expression)`  
   **)**<br><br>
@@ -82,7 +82,7 @@
   `(; (' substraction)   (- a b))`  
   `(; (' multiplication) (* a b))`  
   `(; (' division)       (/ a b))`   
-  `(; (' equal)          (= a b))`  
+  `(; (' equal)          (== a b))`  
   `(; (' atomic)         (atom x))`  
   `(; (' list)           (:: a b))`   
   `(; (' selector)       (0: <list>))`  
