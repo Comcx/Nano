@@ -27,6 +27,7 @@
   - **Commands:**  
     `:q` to quit repl  
     `:?` to ask for help  
+    `:t` to show type info  
     `:na` to load defs  
     `:no` to load *.no files  
     ...  
