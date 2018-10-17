@@ -16,6 +16,12 @@
 <br><br><br>
 
 ## (> Getting started!
+```
+      ______  ___   ____   _______
+      / _  | / _ | / _  | / __   /
+     / / | |/ __ |/ / | |/ /_ / /
+    / /  | /_/ |_/ /  | |\ ____/    by Comcx
+```
 ### (Quick use
    - **Step 0:**  (Pre-installs: make sure you have installed JDK whose version >= 1.8)  
    - **Step 1:**  `git clone https://github.com/Comcx/Nano` or just download from web  
