@@ -20,7 +20,7 @@
    - **Step 2:**  (if (use repl) ((commandInput: `xxx$ java -jar nano-0.7x.jar`) (commandInput: `xxx$ java -jar nano-0.7x.jar -l <filename>`)))  
    - **Step 3:**  Enjoy it! (; "input ':q' to quit repl")  
        
-     <img width="640" height="440" src="https://github.com/Comcx/Nano/blob/master/repl.JPG"/>
+     <img width="660" height="450" src="https://github.com/Comcx/Nano/blob/master/repl.JPG"/>
   
    **)**  
      
