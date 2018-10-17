@@ -5,12 +5,12 @@
 
 <img width="540" height="300" src="https://github.com/Comcx/Nano/blob/master/nano-logo.jpg"/>
 <br><br><br><br>
-~
+```
       ______  ___   ____   _______
       / _  | / _ | / _  | / __   /
      / / | |/ __ |/ / | |/ /_ / /
     / /  | /_/ |_/ /  | |\ ____/    by Comcx
-~
+```
 
 <br><br><br>
 
