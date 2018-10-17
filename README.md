@@ -6,6 +6,8 @@
       / _  | / _ | / _  | / __   /
      / / | |/ __ |/ / | |/ /_ / /
     / /  | /_/ |_/ /  | |\ ____/    by Comcx
+
+<img width="540" height="400" src="https://github.com/Comcx/Nano/blob/master/repl.JPG"/>
 <br><br><br>
 
 ## (> Getting started!
