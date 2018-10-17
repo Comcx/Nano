@@ -7,7 +7,7 @@
      / / | |/ __ |/ / | |/ /_ / /
     / /  | /_/ |_/ /  | |\ ____/    by Comcx
 
-<img width="540" height="400" src="https://github.com/Comcx/Nano/blob/master/repl.JPG"/>
+<img width="540" height="300" src="https://github.com/Comcx/Nano/blob/master/nano-logo.JPG"/>
 <br><br><br>
 
 ## (> Getting started!
