@@ -3,7 +3,7 @@
 (-- latest version: Nano-0.7x)
 
 
-<img width="600" height="160" src="https://github.com/Comcx/Nano/blob/master/logo-nano.jpg"/>
+<img width="620" height="180" src="https://github.com/Comcx/Nano/blob/master/logo-nano.jpg"/>
 <br><br><br><br>
 
 
