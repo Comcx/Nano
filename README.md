@@ -1,4 +1,4 @@
-# (Nano (:: The Programming Language))
+# (Nano (:] The Programming Language))
 **(-- "A new tiny programming language which pursues minimalism")**  
 **(-- latest version: Nano-0.7x)**  
 <br><br>
