@@ -1,9 +1,9 @@
 # (Nano (:: Programming Language))
-(-- "A new tiny programming language which pursues minimalism")
+(-- "A new tiny programming language which pursues minimalism")  
 (-- latest version: Nano-0.7x)
 
 
-<img width="620" height="180" src="https://github.com/Comcx/Nano/blob/master/logo-nano.jpg"/>
+<img width="630" height="190" src="https://github.com/Comcx/Nano/blob/master/logo-nano.jpg"/>
 <br><br><br><br>
 
 
