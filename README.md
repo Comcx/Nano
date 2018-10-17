@@ -3,7 +3,7 @@
 (-- latest version: Nano-0.7x)
 
 
-<img width="540" height="300" src="https://github.com/Comcx/Nano/blob/master/nano-logo.jpg"/>
+<img width="540" height="300" src="https://github.com/Comcx/Nano/blob/master/logo.jpg"/>
 <br><br><br><br>
 
 
@@ -253,4 +253,6 @@
   - Church numeral can't be passed as data
   - Module problem
   - For the pursuing of minimalism, float number is not supported
+  
+<img width="540" height="300" src="https://github.com/Comcx/Nano/blob/master/kris.jpg"/>
 
