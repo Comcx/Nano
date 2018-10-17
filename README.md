@@ -2,12 +2,14 @@
 (-- "A new tiny programming language which pursues minimalism")
 (-- latest version: Nano-0.7x)
 
+
+<img width="540" height="300" src="https://github.com/Comcx/Nano/blob/master/nano-logo.jpg"/>
       ______  ___   ____   _______
       / _  | / _ | / _  | / __   /
      / / | |/ __ |/ / | |/ /_ / /
     / /  | /_/ |_/ /  | |\ ____/    by Comcx
 
-<img width="540" height="300" src="https://github.com/Comcx/Nano/blob/master/nano-logo.jpg"/>
+
 <br><br><br>
 
 ## (> Getting started!
