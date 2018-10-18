@@ -1,4 +1,4 @@
-[![Build Status](https://ci.pytorch.org/jenkins/job/pytorch-master/badge/icon)]# (Nano (:] The Programming Language))
+![Build Status](https://ci.pytorch.org/jenkins/job/pytorch-master/badge/icon)# (Nano (:] The Programming Language))
   
 **(-- "A new tiny programming language which pursues minimalism")**  
 **(-- latest version: Nano-0.7x)**  
